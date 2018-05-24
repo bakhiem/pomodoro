@@ -1,0 +1,217 @@
+@media only screen and (max-width: 600px) {
+    #logo img {
+        width: 60%;
+    }
+
+    .content{
+        left : 0;
+    }
+    div#button button {
+        margin: 5px;
+        padding: 5px 1px;
+        font-size: 0.7rem;
+        width: 115px;
+    }   
+    #timer h1 {
+        font-size: 4em;
+    }
+    #timmer {
+        margin-top: 0;
+    }
+    input#addwork {
+        width: 85%;
+        margin-top: 15px;
+    }
+    div#work-list {
+        width: 85%;
+        height: 165px;
+    }
+    
+    #button.btn-break{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    span#myPopup {
+        /* margin: 0 auto; */
+        font-size: 0.8em;
+        padding: 15px;
+    }
+
+    .btn-break {
+        text-align: center;
+    }
+    .btn-break button {
+        margin: 0;
+    }
+    button#longbreakpopup {
+        padding: 8px;
+        width: 110px;
+        margin-right: 20px;
+    }
+
+    button#shortbreakpopup {
+        padding: 8px;
+        width: 115px;
+    }
+
+    i.fa.fa-times {
+        font-size: 1.2rem;
+        right: -5px;
+        top: -3px;
+    }
+    button{
+        background-color: #ffffff;
+        }
+    hr{
+            margin-top: 0px;
+            margin-bottom: 14px;
+    }
+    .four label {
+        /* line-height: 8px; */
+        font-size: 0.68rem;
+    }
+    input.button {
+        width: 90px;
+        
+    }
+
+    .workStatus {
+        top: 2px;
+        right: 8px;
+        font-size: 1.5rem;
+    }
+
+    .content__container {
+        font-size: 1.7rem;
+    }
+
+    p.content__container__text {
+        margin-left: 10%;
+        font-size: 1.4rem;
+    }
+
+    #long-break-text .content {
+        left: 4%;
+    }
+
+    .content__container__list__item {
+        font-size: 1.3rem;
+    }
+    
+
+} 
+
+/*Responsive on Iphone 5/5s/SE*/
+@media only screen and (max-width: 320px) {
+    .btn-break {
+        padding: 0px;
+        font-size: 0.8em;
+    }
+
+    button#longbreakpopup {
+        width: 90px;
+    }
+
+    button#shortbreakpopup {
+        width: 96px;
+    }
+
+    .modal-content {
+        font-size: 0.8rem;
+    }
+    hr{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    input.button {
+        padding: 7px;
+    }
+    /* input#time_pomodoro {
+        margin-top: 27%;
+    } */
+
+    h5 {
+        margin-top: 3%;
+        margin-bottom: 1px;
+    }
+    div#specificPropertyParameters {
+        display: flex;
+    }
+    svg.resetBtn {
+        margin-left: -25px;
+    }
+
+    .four label {
+        /* line-height: 8px; */
+        font-size: 0.58rem;
+    }
+
+    input#addwork {
+        width: 85%;
+        margin-top: 0;
+    }
+
+    .content__container {
+        font-size: 1.3rem;
+    }
+
+    li.content__container__list__item {
+        margin-left: -17px;
+        font-size: 1.2rem;
+    }
+
+    p.content__container__text {
+        font-size: 1.2rem;
+        margin-left: 3%;
+    }
+
+    #long-break-text .content {
+        left: 0;
+    }
+
+}
+
+
+@media only screen and (width: 375px) {
+    #long-break-text .content {
+        left: 0;
+    }
+
+    p.content__container__text {
+        font-size: 1s.5rem;
+    }
+}
+
+@media only screen and (width: 768px) {
+    #long-break-text .content {
+        left: 17%;
+    }
+}
+
+@media only screen and (width: 1024px) {
+    #long-break-text .content {
+        
+        left: 27%;
+    }
+}
+
+/* responsive for iphone 6s plus  */
+@media only screen and (height: 736px) {
+
+    .resetBtn,.startBtn{
+        width: 67px;
+        height: 67px;
+
+    }
+    div#specificPropertyParameters {
+        display: flex;
+    }
+
+    #long-break-text .content {
+        left: 9%;
+    }
+    
+}
